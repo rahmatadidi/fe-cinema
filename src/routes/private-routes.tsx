@@ -1,6 +1,5 @@
 import FormTicket from "@/pages/form-ticket-page";
-import HomePage from "@/pages/home-page";
-import { Navigate, Outlet } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 const isAuthenticated = () => {
   const token = localStorage.getItem("token");
